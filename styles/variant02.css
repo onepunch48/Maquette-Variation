@@ -58,7 +58,7 @@ main > p {
   color: white;
 }
 
-main > button:nth-child(odd) {
+main a:nth-child(odd) button {
   background-color: rgb(204, 41, 54);
   border-radius: 5px;
   font-weight: bold;
@@ -67,22 +67,22 @@ a {
   text-decoration: none;
 }
 
-main > button:nth-child(even) {
+main a:nth-child(even) button {
   background-color: rgb(235, 186, 185);
   border-radius: 5px;
   font-weight: bold;
 }
 
-main > button:hover {
+main a button:hover {
   background-color: red;
   color: white;
 }
 
-main > button:nth-child(odd)::after {
+main a:nth-child(odd) button::after {
   content: "<==Click on me";
 }
 
-main > button:nth-child(even)::after {
+main a:nth-child(even) button::after {
   content: "<== DONT CLICK ON ME ";
 }
 
