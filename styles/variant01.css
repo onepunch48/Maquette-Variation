@@ -70,6 +70,14 @@ main > button:nth-child(even) {
   font-weight: bold;
 }
 
+main > button:nth-child(odd)::after {
+  content: "<==Click on me";
+}
+
+main > button:nth-child(even)::after {
+  content: "<== DONT CLICK ON ME ";
+}
+
 main > button:hover {
   background-color: red;
   color: white;

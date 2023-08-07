@@ -78,6 +78,14 @@ main > button:hover {
   color: white;
 }
 
+main > button:nth-child(odd)::after {
+  content: "<==Click on me";
+}
+
+main > button:nth-child(even)::after {
+  content: "<== DONT CLICK ON ME ";
+}
+
 footer {
   background-color: rgb(93, 94, 96);
   border-radius: 10px;
