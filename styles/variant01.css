@@ -1,0 +1,82 @@
+body {
+  background-color: rgb(235, 186, 185);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  text-align: center;
+}
+
+header > h1 {
+  text-transform: capitalize;
+  color: rgb(8, 65, 92);
+}
+
+header > h2 {
+  color: rgb(8, 65, 92);
+}
+
+header > h2 > span {
+  text-transform: uppercase;
+  background-color: rgb(8, 65, 92);
+  color: white;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+header > p {
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: rgb(204, 41, 54);
+  font-weight: 600;
+}
+
+main {
+  background-color: rgb(8, 65, 92);
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 10px 20px 20px 20px;
+  border-radius: 10px;
+}
+
+main > h3 {
+  background-color: rgb(181, 255, 225);
+  color: rgb(204, 41, 54);
+  max-width: 120px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 5px;
+}
+
+main > p {
+  color: white;
+}
+
+main > button:nth-child(odd) {
+  background-color: rgb(204, 41, 54);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+main > button:nth-child(even) {
+  background-color: rgb(235, 186, 185);
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+main > button:hover {
+  background-color: red;
+  color: white;
+}
+
+footer {
+  background-color: rgb(181, 255, 225);
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+}
+footer > p {
+  color: rgb(204, 41, 54);
+  padding: 10px;
+  font-weight: bold;
+}
